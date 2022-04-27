@@ -1,17 +1,17 @@
 ---
 title: "第5章  语句"
 description: ""
-date: 2021-12-02T13:42:48+08:00
-image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/th_id=OHR.XmasBeachHuts_ZH-CN6195800613_1920x1080.jpg
+date: 2022-04-26
+image: 
 math: 
 license: 
 hidden: false
-comments: false
+comments: true
 draft: true	
-categories: ["cpp"]
-tags: ["C++","Note"]
+categories: ["C++"]
+tags: ["C++","笔记"]
+lastmod: 2022-04-27
 ---
-
 
 ## 1. 简单语句
 
