@@ -2,7 +2,7 @@ baseurl: https://example.com
 languageCode: zh-CN
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: Kinvy's Blog
 
 # languages:
 #     en:
@@ -42,23 +42,23 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon:  https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/20210702163812.svg  # 网站标签图标
 
     footer:
         since: 2022
         customText:
 
     dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+        published: 2006-01-02
+        lastUpdated: 2006-01-02
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji:   # emoji 
+        subtitle: 一个普通的干饭人
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/avatar1.png   # 头像
 
     article:
         math: false
@@ -152,9 +152,9 @@ params:
             - type: archives
               params:
                   limit: 5
-            - type: categories
-              params:
-                  limit: 10
+            # - type: categories
+            #   params:
+            #       limit: 10
             - type: tag-cloud
               params:
                   limit: 10
@@ -193,19 +193,25 @@ params:
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main: []
+        # - identifier: categories
+        #   name: 分类
+        #   url: /categories/
+        #   weight: -90
+        #   params:
+        #     icon: categories
 
-    social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
-          params:
-              icon: brand-github
+    # social:
+    #     - identifier: github
+    #       name: GitHub
+    #       url: https://github.com/CaiJimmy/hugo-theme-stack
+    #       params:
+    #           icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
+    #     - identifier: twitter
+    #       name: Twitter
+    #       url: https://twitter.com
+    #       params:
+    #           icon: brand-twitter
 
 related:
     includeNewer: true
