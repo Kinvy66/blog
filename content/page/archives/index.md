@@ -1,11 +1,11 @@
 ---
-title: "Archives"
-# date: 2019-05-28
+title: "归档"
+date: 2019-05-28
 layout: "archives"
 slug: "archives"
 menu:
     main:
-        weight: -70
+        weight: -80
         params: 
             icon: archives
 ---
