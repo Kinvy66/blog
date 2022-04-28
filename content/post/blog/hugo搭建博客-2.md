@@ -9,7 +9,7 @@ comments: true
 draft: true
 categories: ["博客搭建"]
 tags: ["Hugo"]
-lastmod:
+lastmod: 2022-04-28
 ---
 
 
@@ -404,7 +404,7 @@ markup:
 
 >以上这些只是基本的配置
 
-
+我的博客工程git仓库（仅供参考）： [Kinvy66/blog (github.com)](https://github.com/Kinvy66/blog)
 
 ## 参考
 
