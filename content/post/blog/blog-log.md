@@ -9,14 +9,17 @@ comments: true
 draft: true
 categories: ["博客搭建"]
 tags: ["Hugo"]
-lastmod:
+lastmod: 2022-04-29
 
 ---
 
 
 
+
+
 ## 2022
 
+- 2022年04月29日，添加评论Waline系统，调整分类文件夹
 - 2022年04月27日， 部署到Vercel，域名改为 kinvy.cn
 - 2022年04月26日， 本地配置完
 

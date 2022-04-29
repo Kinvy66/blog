@@ -1,8 +1,6 @@
 ---
 title: "分类"
-date: 2022-04-27
-layout: "categories"
-slug: "categories"
+description: 
 menu:
     main:
         weight: -90

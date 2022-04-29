@@ -9,7 +9,7 @@ comments: true
 draft: true
 categories: ["博客搭建"]
 tags: ["Hugo"]
-lastmod: 2022-04-28
+lastmod: 2022-04-29
 ---
 
 
@@ -24,18 +24,61 @@ lastmod: 2022-04-28
 
 接下来需要对 `content` 的文件做些调整
 
-1. 删除 `\post` 文件夹下的所有文件和文件夹
+1. `/content` 下的文件结构
 
-2. 删除 `\categories` 文件夹的所有文件和文件夹，并在 `\categories`  文件夹下创建一个 `index.md` 文件
+   ```
+   .
+   ├── _index.md
+   ├── categories       
+   │   ├── Test
+   │   │   └── _index.md
+   │   └── _index.md    
+   ├── page
+   │   ├── about       
+   │   │   └── index.md
+   │   ├── archives    
+   │   │   └── index.md
+   │   └── search      
+   │       └── index.md
+   └── post
+       └── Test
+           └── test.md
+   ```
 
-   `index.md` 内容
+
+
+2. 文件内容
+
+   `./_index.md` 左侧导航栏首页
+
+   ```markdown
+   ---
+   menu:
+       main:
+           name: 首页
+           weight: -100
+           params:
+               icon: home
+   ---
+   ```
+
+   `./categories/Test/_index.md`  分类测试文件
+
+   ```markdown
+   ---
+   title: "Test"
+   description: "简介描述"
+   image: 图片，没有可以留空
+   ---
+   ```
+
+   `./categories/_index.md`  左侧导航栏分类
 
    ```markdown
    ---
    title: "分类"
-   date: 2022-04-27
-   layout: "categories"
-   slug: "categories"
+   description: "分类简介"
+   image: 图片，没有可以留空
    menu:
        main:
            weight: -90
@@ -44,30 +87,57 @@ lastmod: 2022-04-28
    ---
    ```
 
-3. 将 `\categories` 文件夹移动到 `\page` 文件夹下
+   `./page/about/index.md`  左侧导航栏关于和关于页面的内容 
 
-4. 删除 `\links` 文件夹
+   ```markdown
+   ---
+   title: 关于
+   menu:
+       main: 
+           weight: -50
+           params:
+               icon: user
+   ---
+   
+   This is a test page for about.
+   ```
 
-5. 如果目录下有 `index.zh-cn.md` 和 `index.md` ，将 `index.md` 删除， `index.zh-cn.md` 重命名为 `index.md`
+   `./page/archives/index.md`  左侧导航栏归档
 
-最后`\content` 下的文件结构
+   ```markdown
+   ---
+   title: "归档"
+   date: 2022-04-27
+   layout: "archives"
+   slug: "archives"
+   menu:
+       main:
+           weight: -80
+           params: 
+               icon: archives
+   ---
+   
+   ```
 
-```
-.
-├── _index.md     
-├── page
-│   ├── about   
-│   │   └── index.md
-│   ├── archives
-│   │   └── index.md      
-│   ├── categories        
-│   │   └── index.md      
-│   └── search
-│       └── index.md
-└── post
-```
+   `./page/search/index.md`  左侧导航栏搜索
 
+   ```markdown
+   ---
+   title: "搜索"
+   slug: "search"
+   layout: "search"
+   outputs:
+       - html
+       - json
+   menu:
+       main:
+           weight: -60
+           params: 
+               icon: search
+   ---
+   ```
 
+   
 
 在 `about` ，`archives` ，`search`，`categories`   文件夹下都有一个 `index.md` 文件，以 `categories`   下的为例
 
@@ -91,6 +161,14 @@ menu:
 - `date`  时间
 - `weight` 权重， 左侧条目显示的顺序就是按权重的大小排列的
 - `icon` 是图标，可用的图标在主题文件夹 `\assets\icons` 下
+
+
+
+> ==注意== 以上有些文件是有下划线的， `index.md`和`_index.md` 是否有下划线显示的页面是有区别的，读者可以尝试一下更改某些文件的名称看会发生什么
+
+ 
+
+**关于分类文件夹** `categories`，该文件夹下只要有 `_index.md` 文件就可以，分类的页面会自动生成，但是自动生成的某个分类的页面之后有分类名，如果需要显示分类的简介已经图片等个性化信息，那么需要在下新建 `/分类名/_index.md` ,  这里的分类名要和 FrontMatter中的categories字段同名才能对相应的类别页面有效，如果不是已有的类别那么会有一个`分类名` 的类别页面，该页面下是没有内容的。
 
 
 
@@ -405,6 +483,26 @@ markup:
 >以上这些只是基本的配置
 
 我的博客工程git仓库（仅供参考）： [Kinvy66/blog (github.com)](https://github.com/Kinvy66/blog)
+
+
+
+## 三、主题支持的 FrontMatter 字段
+
+| 字段        | 介绍                                                         | 默认值                              |
+| :---------- | :----------------------------------------------------------- | :---------------------------------- |
+| title       | 文章的标题                                                   |                                     |
+| description | 文章简介                                                     |                                     |
+| image       | 特色图片                                                     |                                     |
+| comments    | 显示 / 隐藏评论区                                            | `true` （在配置文件中可配置默认值） |
+| license     | 文章协议 输入 `false` 可以隐藏                               | `params.article.license.default`    |
+| hidden      | 隐藏文章（不在首页，归档等页面显示，但是可以直接通过链接访问） | `false`                             |
+| math        | 加载 KaTeX 脚本                                              |                                     |
+| toc         | 显示 / 隐藏目录                                              | `params.article.toc`                |
+| lastmod     | 最后更改时间                                                 |                                     |
+| categories  | 分类                                                         | 示例 : `["类别名"]`                 |
+| tags        | 标签，可以有多个值                                           | 示例 : `["标签1", "标签2"]`         |
+
+
 
 ## 参考
 

@@ -20,7 +20,7 @@ title: Kinvy's Blog
 #         weight: 3
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: hwaline
 
 # GA Tracking ID
 googleAnalytics:
@@ -69,8 +69,8 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
-        provider: disqus
+        enabled: true
+        provider: waline
 
         disqusjs:
             shortname:
@@ -99,9 +99,9 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL:
-            lang:
-            visitor:
+            serverURL: https://blog-comments-orpin.vercel.app/
+            lang: zh-CN
+            visitor: false
             avatar:
             emoji:
                 - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
