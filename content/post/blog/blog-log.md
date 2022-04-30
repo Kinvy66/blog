@@ -1,5 +1,6 @@
 ---
 title: "博客日志"
+slug: "blog log"
 description: 
 date: 2022-04-26T16:36:34+08:00
 image: 

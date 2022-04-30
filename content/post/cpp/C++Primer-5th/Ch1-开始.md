@@ -1,6 +1,7 @@
 ---
 title: "第1章 开始(C++ Primer 5th)"
 description: "第一章是C++的概览"
+slug: "CPP Primer 5th Ch1"
 date: 2022-04-27
 image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-25.jpg
 math: 

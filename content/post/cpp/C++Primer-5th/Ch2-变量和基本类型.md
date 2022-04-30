@@ -1,5 +1,6 @@
 ---
 title: "第2章 变量和基本类型(C++ Primer 5th)"
+slug: "CPP Primer 5th Ch2"
 description: ""
 date: 2022-04-27
 image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-28.jpg

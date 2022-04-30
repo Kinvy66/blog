@@ -1,5 +1,6 @@
 ---
 title: "第7章 类(C++ Primer 5th)"
+slug: "CPP Primer 5th Ch7"
 description: ""
 date: 2022-04-27
 image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/th_id=OHR.WinterRoofs_ZH-CN5091303265_1920x1080.jpg
@@ -10,7 +11,6 @@ comments: true
 draft: true	
 categories: ["C++"]
 tags: ["C++","笔记","C++ Primer 5th"]
-
 
 ---
 

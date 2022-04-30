@@ -1,6 +1,7 @@
 ---
 title: "Hugo博客搭建(一)"
 description: "使用Hugo搭建博客"
+slug: "Hugo 1"
 date: 2022-04-27T16:41:03+08:00
 image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/hugo-logo-wide.svg
 math: 

@@ -1,5 +1,6 @@
 ---
 title: "第6章 函数(C++ Primer 5th)"
+slug: "CPP Primer 5th Ch6"
 description: ""
 date: 2022-04-27
 image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2022-02-28.jpg

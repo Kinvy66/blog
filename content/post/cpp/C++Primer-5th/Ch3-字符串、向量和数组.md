@@ -1,5 +1,6 @@
 ---
 title: "第3章 字符串、向量和数组(C++ Primer 5th)"
+slug: "CPP Primer 5th Ch3"
 description: ""
 date: 2022-04-27
 image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-30.jpg

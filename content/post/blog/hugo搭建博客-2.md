@@ -1,6 +1,7 @@
 ---
 title: "Hugo搭建博客(二)--Stack主题配置"
 description: "Hugo Stack 主题的详细配置"
+slug: "Hugo Stack config"
 date: 2022-04-27T19:42:09+08:00
 image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/68747470733a2f2f692e696d6775722e636f6d2f634369484f47532e6a7067.jpg
 math: 
@@ -9,7 +10,7 @@ comments: true
 draft: true
 categories: ["博客搭建"]
 tags: ["Hugo"]
-lastmod: 2022-04-29
+lastmod: 2022-04-30
 ---
 
 
@@ -501,6 +502,7 @@ markup:
 | lastmod     | 最后更改时间                                                 |                                     |
 | categories  | 分类                                                         | 示例 : `["类别名"]`                 |
 | tags        | 标签，可以有多个值                                           | 示例 : `["标签1", "标签2"]`         |
+| slug        | 页面url                                                      |                                     |
 
 
 

@@ -1,5 +1,6 @@
 ---
 title: "Git的基本命令"
+slug: "git manual"
 description: "版本控制软件Git的基本使用和命令"
 date: 2022-04-28T11:15:00+08:00
 image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/20220428th_id=OHR.GreatRidge_ZH-CN6165605288.jpg

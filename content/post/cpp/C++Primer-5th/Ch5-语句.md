@@ -1,5 +1,6 @@
 ---
 title: "第5章 语句(C++ Primer 5th)"
+slug: "CPP Primer 5th Ch5"
 description: ""
 date: 2022-04-27
 image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2022-02-21.jpg

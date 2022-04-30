@@ -23,7 +23,7 @@ title: Kinvy's Blog
 disqusShortname: waline
 
 # GA Tracking ID
-googleAnalytics:
+googleAnalytics: G-EQJ67S6XKW
 
 # Theme i18n support
 # Available values: ar, ca, de, el, en, es, fr, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -65,7 +65,7 @@ params:
         toc: true
         readingTime: true
         license:
-            enabled: false
+            enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
@@ -101,10 +101,11 @@ params:
         waline:
             serverURL: https://blog-comments-orpin.vercel.app/
             lang: zh-CN
-            visitor: false
+            visitor: true
             avatar:
             emoji:
                 - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+            requiredFields: mail
             requiredMeta:
                 - name
                 - email
@@ -112,6 +113,11 @@ params:
             placeholder:
             locale:
                 admin: Admin
+                nick: 昵称(选填)
+                mail: 邮箱(必填)
+                link: 网址(选填)
+                sofa: 这里冷冷清清的，快来留下脚印吧！
+
 
         twikoo:
             envId:
