@@ -10,7 +10,7 @@ comments: true
 draft: true
 categories: ["分享"]
 tags: ["分享"]
-lastmod:
+lastmod: 2022-05-03
 
 ---
 
@@ -31,6 +31,7 @@ lastmod:
 
 ## 更新日志
 
+* 2022-05-03 添加若干数据结构和算法的书籍
 * 2022-04-30 添加若干
 * 2022-03-27 更新《x86汇编语言-从实模式到保护模式》，增加《一个64位操作系统的设计与实现》
 * 2022-03-24 更新《汇编语言》第四版，增加《计算机网络-自顶向下方法》
@@ -54,6 +55,10 @@ lastmod:
 
 - 设计模式 可复用面向对象软件的基础 by [美] Erich Gamma Richard Helm Ralph Johnson John Vlisside
 - 数据结构、算法与应用（原书第2版） C++语言描述 by Sartaj Sahni
+- Data Structures and Algorithm Analysis in C++ (Mark A. Weiss)  4th
+- 数据结构与算法分析 C++描述(第三版) ([美] Mark Allen Weiss  张怀勇)
+- 算法导论 第三版
+- 算法图解 by [美] Aditya Bhargava
 
 #### [01-C_CPP](https://www.aliyundrive.com/s/6nfTTXLEFYY)
 
