@@ -10,7 +10,7 @@ comments: true
 draft: true
 categories: ["分享"]
 tags: ["分享"]
-lastmod: 2022-05-03
+lastmod: 2022-05-09
 
 ---
 
@@ -31,6 +31,7 @@ lastmod: 2022-05-03
 
 ## 更新日志
 
+* 2022-05-09 添加c++书籍若干
 * 2022-05-03 添加若干数据结构和算法的书籍
 * 2022-04-30 添加若干
 * 2022-03-27 更新《x86汇编语言-从实模式到保护模式》，增加《一个64位操作系统的设计与实现》
@@ -73,6 +74,9 @@ lastmod: 2022-05-03
 - C++ Primer-5th Edition
 - Qt 5.9 C++开发指南 (王维波 栗宝鹃 侯春望) -高清版
 - Qt 5.9 C++开发指南 (王维波 栗宝鹃 侯春望)-扫描版
+- More Effective C++（中文版） 35个改善编程与设计的有效方法 (Scott Meyers)
+- 深度探索c++对象模型 (Stanley Lippman , 侯捷)
+- Effective Modern C++ 42 Specific Ways to Improve Your Use of C++11 and C++14 (Scott Meyers)
 
 #### [02-Python](https://www.aliyundrive.com/s/1pd3BoYXV45)
 
