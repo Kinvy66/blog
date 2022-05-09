@@ -313,7 +313,7 @@ int (&arrRef)[10] = arr;	//arrRef是一个 int[10]类型的引用
 int *(&arry)[10] = ptrs;	//arry是一个引用，指向的是 含有10个int*的数组
 ```
 
-对于上面这些声明，使用==从内至外==的方法读比较合适。
+对于上面这些声明，使用<span style="background: yellow">从内至外</span>的方法读比较合适。
 
 
 

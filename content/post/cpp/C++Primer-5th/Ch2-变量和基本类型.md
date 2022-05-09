@@ -74,7 +74,7 @@ int a{pi};	//错误，编译器会检查类型，无法通过编译
 
 
 
-**默认初始化** ，定义变量时没有初始化变量的值，则变量会被默认初始化。默认初始化的值取决于变量定义的类型。==定义在函数体内的局部变量和类中的成员属性是不会被初始化的== 所以不用试图使用任何方式去访问这些变量。
+**默认初始化** ，定义变量时没有初始化变量的值，则变量会被默认初始化。默认初始化的值取决于变量定义的类型。<span style="background: yellow">定义在函数体内的局部变量和类中的成员属性是不会被初始化的</span> 所以不用试图使用任何方式去访问这些变量。
 
 
 
@@ -102,7 +102,7 @@ int j;		//声明并定义j
 
 变量命名按照规范，不要使用保留关键字。
 
-==命名规则，供参考：==
+<span style="background: yellow">命名规则，供参考：</span> 
 
 - 普通的局部变量和函数参数名使用小驼峰（第一个单词首字母小写，其他单词首字母大写）， 例： `userName`
 - 全局变量前加 `g_`, 后面的按小驼峰规则 ， `g_userName`
@@ -266,7 +266,7 @@ int &r4 = r1 * 2;			//错误
 
 
 
-==组合关系==
+<span style="background: yellow">组合关系 </span>
 
 |               | `int i` | `cont int i` |
 | :-----------: | :-----: | :----------: |
@@ -297,7 +297,7 @@ const double pi = 3.14;
 cont double *const pip = &pi;		//pip是一个指向常量对象的常量指针
 ```
 
-==从右向左读==
+  <span style="background: yellow">从右向左读</span>
 
 
 
@@ -334,7 +334,7 @@ const int &r = ci;			//用于声明引用的const都是底层
 
 
 
-==引用类型的变量自带顶层const== 即引用一旦赋值（指向某个变量）就不可以在变化（指向另一个变量）
+<span style="background: yellow">引用类型的变量自带顶层const</span> 即引用一旦赋值（指向某个变量）就不可以在变化（指向另一个变量）
 
 
 
@@ -400,7 +400,7 @@ const pstring cstr = 0;		//char *const cstr = 0;
 const pstring *ps;			//char **const ps;
 ```
 
-==第二行的定义不能理解成== `const char *cstr = 0;` 
+<span style="background: yellow">第二行的定义不能理解成</span>`const char *cstr = 0;` 
 
 
 
@@ -478,7 +478,7 @@ decltype(f()) sum = x;		//sum的类型和f()的返回类型一样
 
 #### decltype 和const
 
-`decltype`处理顶层 consth和引用的方式和auto有点不同，如果 decltype使用的表达式是一个变量，则decltype返回该变量的类型（==包括顶层const和引用在内==）
+`decltype`处理顶层 consth和引用的方式和auto有点不同，如果 decltype使用的表达式是一个变量，则decltype返回该变量的类型（<span style="background: yellow">包括顶层const和引用在内</span>）
 
 ```cpp
 const int ci = 0, &cj = ci;
