@@ -70,14 +70,14 @@ class StackGallery {
             if (!paragraph || !container.contains(paragraph)) continue;
 
             if (paragraph.textContent.trim() == '') {
-                /// Once we insert figcaption, this check no longer works
-                /// So we add a class to paragraph to mark it
-                paragraph.classList.add('no-text');
+            /// Once we insert figcaption, this check no longer works
+            /// So we add a class to paragraph to mark it
+            paragraph.classList.add('no-text');
             }
-
+            
             let isNewLineImage = paragraph.classList.contains('no-text');
             if (!isNewLineImage) continue;
-
+            
             const hasLink = img.parentElement.tagName == 'A';
 
             let el: HTMLElement = img;
