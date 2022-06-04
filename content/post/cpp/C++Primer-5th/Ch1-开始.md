@@ -9,8 +9,8 @@ license:
 hidden: false
 comments: true
 draft: true	
-categories: ["C++"]
-tags: ["C++","笔记","C++ Primer 5th"]
+categories: ["CPP"]
+tags: ["CPP","笔记","C++ Primer 5th"]
 lastmod: 2022-06-04
 ---
 
