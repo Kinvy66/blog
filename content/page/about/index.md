@@ -1,6 +1,7 @@
 ---
 title: 关于
 slug: "about"
+toc: false
 menu:
     main: 
         weight: -50

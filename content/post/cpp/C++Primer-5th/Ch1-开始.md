@@ -57,17 +57,35 @@ int main()
 
 ### 1.1 编译、运行程序
 
+![image-20220604174737974](https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/image-20220604174737974.png)
 
+上图是一个 C 程序（C++ 程序类似）的编译过程，可供参考。
+
+更详细参考：[【6】【Cherno C++】【中字】C++编译器是如何工作的](https://www.bilibili.com/video/BV1er4y1c7nj/?spm_id_from=333.788)
 
 
 
 ## 2. 初始输入和输出
 
-c++的输入和输出 `cin` `cout` 以及对应的运算符 `<<` `>>`
+在C++语言中并未定义任何输入输出（IO）语句，取而代之，包含了一个一个全面的标准库来提供 IO 机制。当然，我们也可可以使用 C 语言中的 `printf` ，C++ 是兼容 C 的，但是并不建议，所以本书中的示例都是使用标准库中提供的 `iostream` 库。`iostream` 库包含两个基础类型 `istream` 和 `ostream` ，分别表示输入流和输出流。
 
-```c++
-std::cout << "hello" << std::endl;
-std::cin >> val;
+#### 标准输入输出对象
+
+标准库定义类4个 IO 对象。输入， 使用一个名为 `cin` 的 `istream`  类型的对象。 输出，使用一个名为 `cout` 的 `ostream` 类型的对象。标准库还定义了其他两个 `ostream` 对象，名为 `cerr` 和 `clog` 。 
+
+#### 一个使用 IO 库的程序
+
+```cpp
+#include <iostream>
+int main()
+{
+    std::cout << "Enter two numbers:" << std::endl;
+    int v1 = 0, v2 = 0;
+    std::cin >> v1 >> v2;
+    std::cout << "The sum of " << v1 << " and " << v2
+              << " is " << v1 + v2 << std::endl;
+    return 0;
+}
 ```
 
 
@@ -93,13 +111,100 @@ std::cin >> val;
 
 ### 4.1 while
 
+示例： 求 1 到 10 的和
+
+```cpp
+#include <iostream>
+int main()
+{
+    int sum = 0, val = 0;
+    while (val <= 10)
+    {
+        sum += val;
+        ++val;
+    }
+    std::cout << "Sum of 1 to 10 inclusive is "
+              << sum << std::endl;
+    return 0;
+}
+```
+
 
 
 ### 4.2  for
 
+`for` 循环， 将上面 `while` 循环改成  `for`
+
+```cpp
+#include <iostream>
+int main()
+{
+    int sum = 0; 
+	for (int val = 1; val <= 10; ++val)
+        sum += val;
+    std::cout << "Sum of 1 to 10 inclusive is "
+              << sum << std::endl;
+    
+    return 0;
+    
+}
+```
 
 
-### 4.3 if
+
+### 4.3 读取数量不定的输入数据
+
+```cpp
+#include <iostream>
+int main()
+{
+    int sum = 0, val = 0;
+    while (std::cin >> val)
+        sum += val;
+    std::cout << "Sum  is " << sum << std::endl;
+    return 0;
+}
+```
+
+上面程序在输入结束后除了按回车键，还需要按**结束符** 
+
+>在Windows 系统中输入结束符是按 `Ctrl + Z`
+>
+>在 UNIX系统中，包括 Mac OS X 系统中，文件结束符输入用 `Ctrl + D`
+
+
+
+###   4.3 if
+
+示例
+
+```cpp
+#include <iostream>
+int main() 
+{
+    // currVal是我们正在统计的数，我们将读入的新值存入val
+    int currVal = 0, val = 0;
+    // 读取第一个数，并确保确实有数据可以处理
+    if(std::cin >> currVal) {
+        int cnt = 1;
+        while(std::cin >> val) {
+            if(val == currVal) {
+                ++cnt;
+            }
+            else {
+                std::cout << currVal << " occurs " 
+                          << cnt << " times " << std::endl;
+                currVal = val;
+                cnt = 1;
+            }
+        }
+        std::cout << currVal << " occurs " 
+                  << cnt << " times " << std::endl;
+    }
+
+    return 0;
+}
+```
 
 
 
