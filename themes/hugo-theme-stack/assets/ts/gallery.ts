@@ -74,10 +74,10 @@ class StackGallery {
                 /// So we add a class to paragraph to mark it
                 paragraph.classList.add('no-text');
             }
-            
+
             let isNewLineImage = paragraph.classList.contains('no-text');
             if (!isNewLineImage) continue;
-            
+
             const hasLink = img.parentElement.tagName == 'A';
 
             let el: HTMLElement = img;

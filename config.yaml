@@ -54,7 +54,7 @@ params:
 
     sidebar:
         emoji:   # emoji 
-        subtitle: 一个普通的干饭人
+        subtitle: 生活不只有0和1
         avatar:
             enabled: true
             local: true
@@ -117,7 +117,7 @@ params:
                 nick: 昵称(选填)
                 mail: 邮箱(必填)
                 link: 网址(选填)
-                sofa: 这里冷冷清清的，快来留下脚印吧！
+                sofa: 欢迎评论！
 
 
         twikoo:
