@@ -1,6 +1,6 @@
 ---
 title: "C++ using 关键字的几种的用法"
-slug: "Cpp Using"
+slug: "C++ Using"
 description: "C++ 中 using 关键字的用法"
 date: 2022-05-18T16:07:39+08:00
 image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/20220505th_id=OHR.JaliscoAgave_ZH-CN6612544241_1920x1080.jpg
