@@ -1,17 +1,29 @@
 ---
 title: "第3章 字符串、向量和数组(C++ Primer 5th)"
-slug: "CPP Primer 5th Ch3"
-description: ""
 date: 2022-04-27
-image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-30.jpg
-math: 
-license: 
-hidden: false
-comments: true
-draft: false	
+lastmod: 
+author: ["Kinvy"]
+keywords: 
+- 
 categories: ["C++"]
 tags: ["C++","C++ Primer 5th"]
-
+description: ""
+weight:
+slug: "CPP Primer 5th Ch3"
+draft: false 
+comments: true
+reward: false 
+mermaid: true 
+showToc: true 
+TocOpen: true 
+hidemeta: false 
+disableShare: true 
+showbreadcrumbs: true 
+cover:
+    image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-30.jpg
+    caption: "" 
+    alt: ""
+    relative: false
 ---
 
 ## 1. 命名空间的using声明

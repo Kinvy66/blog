@@ -1,18 +1,31 @@
 ---
 title: "第1章 开始(C++ Primer 5th)"
-description: "第一章是C++的概览"
-slug: "CPP Primer 5th Ch1"
 date: 2022-04-27
-image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-25.jpg
-math: 
-license: 
-hidden: false
-comments: true
-draft: false	
+lastmod: 2022-06-04
+author: ["Kinvy"]
+keywords: 
+- 
 categories: ["C++"]
 tags: ["C++","C++ Primer 5th"]
-lastmod: 2022-06-04
+description: "第一章是C++的概览"
+weight:
+slug: "CPP Primer 5th Ch1"
+draft: false 
+comments: true
+reward: false 
+mermaid: true 
+showToc: true 
+TocOpen: true 
+hidemeta: false 
+disableShare: true 
+showbreadcrumbs: true 
+cover:
+    image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-25.jpg 
+    caption: "" 
+    alt: ""
+    relative: false
 ---
+
 
 
 

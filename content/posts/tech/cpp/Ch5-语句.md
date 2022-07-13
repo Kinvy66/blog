@@ -1,16 +1,29 @@
 ---
 title: "第5章 语句(C++ Primer 5th)"
-slug: "CPP Primer 5th Ch5"
-description: ""
 date: 2022-04-27
-image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2022-02-21.jpg
-math: 
-license: 
-hidden: false
-comments: true
-draft: false	
+lastmod: 
+author: ["Kinvy"]
+keywords: 
+- 
 categories: ["C++"]
 tags: ["C++","C++ Primer 5th"]
+description: ""
+weight:
+slug: "CPP Primer 5th Ch5"
+draft: false 
+comments: true
+reward: false 
+mermaid: true 
+showToc: true 
+TocOpen: true 
+hidemeta: false 
+disableShare: true 
+showbreadcrumbs: true 
+cover:
+    image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2022-02-21.jpg
+    caption: "" 
+    alt: ""
+    relative: false
 ---
 
 

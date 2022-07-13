@@ -1,17 +1,31 @@
 ---
 title: "第4章 表达式(C++ Primer 5th)"
-slug: "CPP Primer 5th Ch4"
-description: ""
 date: 2022-04-27
-image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-31.jpg
-math: 
-license: 
-hidden: false
-comments: true
-draft: false	
+lastmod: 
+author: ["Kinvy"]
+keywords: 
+- 
 categories: ["C++"]
 tags: ["C++","C++ Primer 5th"]
+description: ""
+weight:
+slug: "CPP Primer 5th Ch4"
+draft: false 
+comments: true
+reward: false 
+mermaid: true 
+showToc: true 
+TocOpen: true 
+hidemeta: false 
+disableShare: true 
+showbreadcrumbs: true 
+cover:
+    image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-31.jpg
+    caption: "" 
+    alt: ""
+    relative: false
 ---
+
 
 
 

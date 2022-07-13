@@ -97,7 +97,7 @@ params:
     defaultTheme: auto  # defaultTheme: light or  dark 
     disableThemeToggle: false
     DateFormat: "2006-01-02"
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowReadingTime: true
     # disableSpecialistPost: true
     displayFullLangName: true
@@ -107,7 +107,7 @@ params:
     hideFooter: false # 隐藏页脚
     ShowWordCounts: true
     VisitCount: true
-    Reward: true #打赏
+    Reward: false #打赏
     ShowLastMod: true #显示文章更新时间
 
     ShowToc: true # 显示目录

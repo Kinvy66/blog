@@ -1,19 +1,30 @@
 ---
 title: "C++ using 关键字的几种的用法"
-slug: "C++ Using"
-description: "C++ 中 using 关键字的用法"
-date: 2022-05-18T16:07:39+08:00
-image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/20220505th_id=OHR.JaliscoAgave_ZH-CN6612544241_1920x1080.jpg
-math: 
-hidden: false
-comments: true
-draft: true
+date: 2022-05-18
+lastmod: 2022-06-03
+author: ["Kinvy"]
+keywords: 
+- 
 categories: ["C++"]
 tags: ["C++"]
-lastmod: 2022-06-03
-
+description: "C++ 中 using 关键字的用法"
+weight:
+slug: "C++ Using"
+draft: false 
+comments: true
+reward: false 
+mermaid: true 
+showToc: true 
+TocOpen: true 
+hidemeta: false 
+disableShare: true 
+showbreadcrumbs: true 
+cover:
+    image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/20220505th_id=OHR.JaliscoAgave_ZH-CN6612544241_1920x1080.jpg
+    caption: "" 
+    alt: ""
+    relative: false
 ---
-
 
 
 

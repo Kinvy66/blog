@@ -1,18 +1,29 @@
 ---
 title: "第7章 类(C++ Primer 5th)"
-slug: "CPP Primer 5th Ch7"
-description: ""
 date: 2022-04-27
-image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/th_id=OHR.WinterRoofs_ZH-CN5091303265_1920x1080.jpg
-math: 
-license: 
-hidden: false
-comments: true
-draft: false	
+lastmod: 
+author: ["Kinvy"]
+keywords: 
+- 
 categories: ["C++"]
 tags: ["C++","C++ Primer 5th"]
-lastmod: 2022-05-08
-
+description: ""
+weight:
+slug: "CPP Primer 5th Ch7"
+draft: false 
+comments: true
+reward: false 
+mermaid: true 
+showToc: true 
+TocOpen: true 
+hidemeta: false 
+disableShare: true 
+showbreadcrumbs: true 
+cover:
+    image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/th_id=OHR.WinterRoofs_ZH-CN5091303265_1920x1080.jpg 
+    caption: "" 
+    alt: ""
+    relative: false
 ---
 
 
