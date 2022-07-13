@@ -15,11 +15,11 @@
     <span>
         <!-- Copyright -->
         &copy;
-        2021-{{ now.Year }}
+        2021-{{ now.Year }} 
         <a href="{{ "" | absLangURL }}" style="color:#939393;">{{ .Site.Title }}</a>
          <!-- All Rights Reserved -->
-        
-        Powered by
+        &nbsp;&nbsp;
+         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
@@ -136,14 +136,14 @@
             let clipboardData = e.clipboardData || window.clipboardData;
             if (clipboardData) {
                 e.preventDefault();
-                let htmlData = window.getSelection().toString() +
-                    '\r\n\n————————————————\r\n' +
-                    '版权声明：本文为「Kinvy\'s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
-                    '\r\n原文链接：' + location.href;
-                let textData = window.getSelection().toString() +
-                    '\r\n\n————————————————\r\n' +
-                    '版权声明：本文为「Kinvy\'s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
-                    '\r\n原文链接：' + location.href;
+                let htmlData = window.getSelection().toString();// +
+                    // '\r\n\n————————————————\r\n' +
+                    // '版权声明：本文为「Kinvy\'s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                    // '\r\n原文链接：' + location.href;
+                let textData = window.getSelection().toString();// +
+                    // '\r\n\n————————————————\r\n' +
+                    // '版权声明：本文为「Kinvy\'s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                    // '\r\n原文链接：' + location.href;
                 clipboardData.setData('text/html', htmlData);
                 clipboardData.setData('text/plain', textData);
             }
@@ -169,10 +169,10 @@
 
         copybutton.addEventListener('click', (cb) => {
             if ('clipboard' in navigator) {
-                let text = codeblock.textContent +
-                    '\r\n————————————————\r\n' +
-                    '版权声明：本文为「Kinvy\'s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
-                    '\r\n原文链接：' + location.href;
+                let text = codeblock.textContent;// +
+                //     '\r\n————————————————\r\n' +
+                //     '版权声明：本文为「Kinvy\'s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                //     '\r\n原文链接：' + location.href;
                 navigator.clipboard.writeText(text);
                 copyingDone();
                 return;

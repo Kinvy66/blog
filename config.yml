@@ -17,7 +17,7 @@ buildExpired: false
 googleAnalytics:  # 谷歌统计
 # Copyright: Sulv
 
-paginate: 10    # 首页每页显示的文章数
+paginate: 10   # 首页每页显示的文章数
 
 minify:
     disableXML: true
@@ -35,10 +35,9 @@ languages:
       languageName: "English"
       weight: 1
       profileMode:
-        enabled: true
+        enabled: false
         title: (〃'▽'〃)
         subtitle: 
-        # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
         imageUrl: "img/avatar.svg"
         imageTitle: 
         imageWidth: 150
@@ -114,11 +113,16 @@ params:
     ShowToc: true # 显示目录
     TocOpen: true # 自动展开目录
 
+    homeInfoParams:
+      Title: "Kinvy's Blog"
+      Content: >
+          TODO
+
     comments: true
     socialIcons:
-        - name: github
+        - name: "github"
           url: "https://github.com/Kinvy66"
-        - name: email
+        - name: "email"
           url: "mailto:kinvy66@163.com"
         # - name: twitter
         #   url:  "img/twitter.png"
@@ -128,11 +132,11 @@ params:
         #   url: "img/instagram.png"
         - name: bilibili
           url: "https://space.bilibili.com/109199717"
-        - name: QQ
-          url: "img/qq.png"
+        # - name: QQ
+        #   url: "img/qq.png"
         # - name: WeChat
         #   url: "img/wechat.png"
-        - name: RSS
+        - name: Rss
           url: "index.xml"
 
     label:
