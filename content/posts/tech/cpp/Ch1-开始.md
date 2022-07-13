@@ -1,37 +1,18 @@
 ---
-title:  "第1章 开始(C++ Primer 5th)"
-date: 2022-05-05T00:17:58+08:00
-lastmod: 2022-05-05T00:17:58+08:00
-author: ["Kinvy"]
-keywords: 
-- C++
-  cpp
-categories: 
-- C++
-tags: ["c++" , "Note"]
-description: ""
-weight:
-slug: "CPP Primer 5th Ch3"
-draft: false # 是否为草稿
+title: "第1章 开始(C++ Primer 5th)"
+description: "第一章是C++的概览"
+slug: "CPP Primer 5th Ch1"
+date: 2022-04-27
+image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-25.jpg
+math: 
+license: 
+hidden: false
 comments: true
-reward: false # 打赏
-mermaid: true #是否开启mermaid
-showToc: true # 显示目录
-TocOpen: true # 自动展开目录
-hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
-disableShare: true # 底部不显示分享栏
-showbreadcrumbs: true #顶部显示路径
-cover:
-    image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-25.jpg #图片路径例如：posts/tech/123/123.png
-    caption: "" #图片底部描述
-    alt: ""
-    relative: false
+draft: false	
+categories: ["C++"]
+tags: ["C++","C++ Primer 5th"]
+lastmod: 2022-06-04
 ---
-
-
-
-
-
 
 
 

@@ -7,9 +7,9 @@ image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/20220524th_id=OHR
 math: 
 hidden: false
 comments: true
-draft: true
+draft: false	
 categories: ["C++"]
-tags: ["C++","笔记","C++ Primer 5th"]
+tags: ["C++","C++ Primer 5th"]
 lastmod:
 
 ---
