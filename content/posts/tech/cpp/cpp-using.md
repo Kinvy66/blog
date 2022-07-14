@@ -9,7 +9,7 @@ categories: ["C++"]
 tags: ["C++"]
 description: "C++ 中 using 关键字的用法"
 weight:
-slug: "C++ Using"
+slug: "cpp using"
 draft: false 
 comments: true
 reward: false 
