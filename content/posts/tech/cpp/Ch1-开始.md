@@ -8,6 +8,7 @@ keywords:
 categories: ["C++"]
 tags: ["C++","C++ Primer 5th"]
 description: "第一章是C++的概览"
+hideSummary: false
 weight:
 slug: "CPP Primer 5th Ch1"
 draft: false 
@@ -23,7 +24,6 @@ cover:
     image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-25.jpg 
     caption: "" 
     alt: ""
-    relative: false
 ---
 
 
