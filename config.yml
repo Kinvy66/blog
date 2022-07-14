@@ -15,7 +15,7 @@ buildFuture: false
 buildExpired: false
 
 googleAnalytics:  # 谷歌统计
-# Copyright: Sulv
+
 
 paginate: 10   # 首页每页显示的文章数
 
@@ -116,7 +116,7 @@ params:
     homeInfoParams:
       Title: "Kinvy's Blog"
       Content: >
-          TODO
+          生活不知有0和1
 
     comments: true
     socialIcons:
