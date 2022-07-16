@@ -16,6 +16,8 @@ buildExpired: false
 
 googleAnalytics:  # 谷歌统计
 
+blackfriday:
+  hrefTargetBlank: true
 
 paginate: 10   # 首页每页显示的文章数
 
@@ -147,6 +149,9 @@ params:
     analytics:
         google:
             SiteVerificationTag: ""
+    
+    footer:
+      since: 2022
 
     assets:
         favicon: "img/avatar.svg"
