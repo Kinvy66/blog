@@ -22,10 +22,15 @@ cover:
 
 
 
-<p style="font-size: 25px;">关于我</p>
+<p style="font-size: 25px;">* 关于我</p>
 
 |           |                    |
 | --------- | ------------------ |
-| 英文名:   | Kevin Xu              |
-| 职业:     | 程序员             |
-| 运动:     | 跑步、乒乓球、爬山 |
+| 英文名:   | Kinvy Qiu              |
+| 职业:     |    学生          |
+| Email:     | kinvy66@163.com |
+
+
+<p style="font-size: 25px;">* 关于博客</p>
+
+本博客使用 [Hugo](https://gohugo.io/) 搭建,主题使用的是由[Kevin Xu](https://www.sulvblog.cn/)基于[adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod/) 修改的模板, 由[Vercel](https://vercel.com/) 提供部署服务。
