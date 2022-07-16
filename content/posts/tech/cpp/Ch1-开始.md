@@ -20,6 +20,7 @@ TocOpen: true
 hidemeta: false 
 disableShare: true 
 showbreadcrumbs: true 
+hidden: true
 cover:
     image: https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/2021-12-25.jpg 
     caption: "" 

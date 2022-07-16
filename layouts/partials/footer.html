@@ -9,17 +9,21 @@
 
 
 <footer class="footer">
+
     {{- if .Site.Copyright }}
     <span>{{ .Site.Copyright | markdownify }}</span>
     {{- else }}
     <span>
         <!-- Copyright -->
-        &copy;
-        2021-{{ now.Year }} 
+        &copy; 
+        {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
+            {{ .Site.Params.footer.since }} - 
+        {{ end }}
+        {{ now.Format "2006" }} 
         <a href="{{ "" | absLangURL }}" style="color:#939393;">{{ .Site.Title }}</a>
-         <!-- All Rights Reserved -->
-        &nbsp;&nbsp;
-         Powered by
+        with <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener noreferrer" target="_blank">CC-BY-NC-SA 4.0</a>  Authorized.
+        <br>
+        Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
