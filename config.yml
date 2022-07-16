@@ -25,6 +25,8 @@ minify:
     disableXML: true
     # minifyOutput: true
 
+preserveTaxonomyNames: true
+
 permalinks: # 访问博客时网址的显示形式
   post: "/:title/"
   # post: "/:year/:month/:day/:title/"
